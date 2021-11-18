@@ -1,0 +1,5 @@
+opencv/
+*.pyc
+__pycache__
+*.jpg
+*.jpeg

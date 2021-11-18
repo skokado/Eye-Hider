@@ -1,0 +1,3 @@
+model:
+	wget -P app/models/ http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+	bunzip2 app/models/shape_predictor_68_face_landmarks.dat.bz2

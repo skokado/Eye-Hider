@@ -19,7 +19,7 @@ $ cd backend/
 $ pipenv sync
 $ pipenv shell
 $ make model
-$ gunicorn app.main:app]
+$ gunicorn -k uvicorn.workers.UvicornWorker app.main:app
 
 $ # Frontend
 $ cd frontend/
